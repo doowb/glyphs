@@ -98,7 +98,7 @@ define('byGlyph', function() {
       var val = glyphs[key];
       acc[val] = acc[val] || key;
       return acc;
-    });
+    }, {});
 });
 
 function define(name, fn) {
